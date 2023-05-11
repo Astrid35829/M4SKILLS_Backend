@@ -1,6 +1,6 @@
 <?php
-    var_dump ($_GET);
+    var_dump ($_POST);
     print '</br>';
 
-    print_r($_GET["email"]);
+    print_r($_POST["email"]);
 ?>
